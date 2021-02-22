@@ -1,0 +1,66 @@
+.card-data{
+
+padding: 30px;
+margin: 400px;
+margin-top: 100px;
+margin-bottom: 0;
+width: 1000px;
+height: 700px;
+background-color: #99a6894d;
+text-align: center;
+display: none;
+border: 2px solid black;
+border-radius: 6px;
+
+}
+div{
+    font-size: 40px;
+    color: brown;
+    margin-bottom:40px;
+}
+.span{
+
+    padding: 2px;
+    background-color: rgba(138, 156, 109, 0.466);
+    color: black;
+    font-size: 35px;
+    
+}
+
+.input-data{
+
+    margin-top: 300px;
+    left: 600px;
+    position: fixed;
+    }
+
+input{
+
+   width: 700px;
+   height: 50px;
+   font-size: 30px;
+   border: 2px solid black;
+   border-radius: 15px;
+   background-color: rgba(253, 245, 230, 0.472);
+   text-align: center;
+}
+
+input:hover{
+
+border-color: cornflowerblue;
+box-shadow: cornflowerblue 3px 3px 3px 3px;
+border-radius: 15px;
+}
+
+.btn{
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.age,.work,.emil{
+
+    display: none;
+}
+
