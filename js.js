@@ -4,6 +4,7 @@ $(document).ready(function(){
     var age
     var work
     var emil
+    var img
     
 $("button").click(function(){
 
@@ -29,12 +30,19 @@ else if(work==null){
 else if(emil==null){
 
     emil=$(".emil").val()
+    $(".emil").hide()
+    $(".add_img").show()
+}
+else if(img==null){
+
+    img=$(".add_img").val()
     $(".input-data").hide()
 
     $(".name-show").html(name)
     $(".age-show").html(age)
     $(".work-show").html(work)
     $(".emil-show").html(emil)
+    $("img").attr('src',img)
     $(".card-data").show()
 
 }
