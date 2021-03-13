@@ -47,12 +47,7 @@ else if(img==null){
     $(".card-data").fadeIn(500)
 })
 
-}
-
-
-
-})
-
+} })
 
 
 
